@@ -36,9 +36,10 @@ install_docker_compose_setup() {
 
     compose_file_url="https://raw.githubusercontent.com/swarmcanvas/scratchpad/refs/heads/main/docker-compose.yml"
     nginx_file_url="https://raw.githubusercontent.com/swarmcanvas/scratchpad/refs/heads/main/nginx.conf"
+    init_sql_url="https://raw.githubusercontent.com/swarmcanvas/scratchpad/refs/heads/main/init.sql"
     target_folder="/opt/docker-setup"
 
-    mkdir -p "$target_folder"
+    mkdir -p "$target_folder/dbscripts"
 
     echo "Downloading docker-compose.yml..."
     curl -o "$target_folder/docker-compose.yml" "$compose_file_url"
@@ -49,6 +50,11 @@ install_docker_compose_setup() {
     curl -o "$target_folder/nginx.conf" "$nginx_file_url"
     chmod 644 "$target_folder/nginx.conf"
     echo "nginx.conf downloaded to $target_folder."
+
+    echo "Downloading init.sql..."
+    curl -o "$target_folder/dbscripts/init.sql" "$init_sql_url"
+    chmod 644 "$target_folder/dbscripts/init.sql"
+    echo "init.sql downloaded to $target_folder/dbscripts."
 
     echo "Starting Docker Compose..."
     docker compose -f "$target_folder/docker-compose.yml" up -d

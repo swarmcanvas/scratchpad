@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: studioswarm
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ./backend/dbscripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./dbscripts/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - app-network
 
