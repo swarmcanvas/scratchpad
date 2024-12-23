@@ -8,7 +8,7 @@ install_docker_compose_setup() {
 
     echo "Starting installation process..."
 
-    ports_to_check=(80 443 3000 8080)
+    ports_to_check=(80 443 3000 8001 4000)
     echo "Checking if the following ports are available: ${ports_to_check[*]}"
 
     unavailable_ports=()
