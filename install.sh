@@ -51,7 +51,7 @@ install_docker_compose_setup() {
     echo "nginx.conf downloaded to $target_folder."
 
     echo "Starting Docker Compose..."
-    docker-compose -f "$target_folder/docker-compose.yml" up -d
+    docker compose -f "$target_folder/docker-compose.yml" up -d
 
     echo "Installation complete. Docker Compose services are up and running."
     echo "The following ports are now in use: ${ports_to_check[*]}"
