@@ -1,0 +1,6 @@
+rss_feed_id,title,link,description,content,published_date,author
+1,New breakthrough in reinforcement learning,https://ai-daily.com/articles/reinforcement-learning-breakthrough,Researchers achieve significant progress in RL algorithms,Full content of the article...,2023-04-15 09:30:00,Jane Doe
+2,GPT-4 shows impressive results in medical diagnosis,https://mlweekly.com/news/gpt4-medical-diagnosis,OpenAI's latest language model demonstrates potential in healthcare,Detailed article content...,2023-04-14 14:45:00,John Smith
+3,L'IA générative révolutionne la création artistique,https://ia-nouvelles.fr/articles/ia-generative-art,Comment l'IA transforme le processus créatif des artistes,Contenu complet de l'article...,2023-04-13 11:15:00,Marie Dupont
+4,Advancements in Computer Vision for Autonomous Vehicles,https://datasciencedigest.com/articles/cv-autonomous-vehicles,Recent developments in CV improving self-driving car capabilities,Full article content...,2023-04-16 10:00:00,Alex Johnson
+5,The Ethics of AI in Hiring Processes,https://aiethicsblog.org/posts/ai-in-hiring,Examining the implications of using AI for job candidate selection,Detailed blog post content...,2023-04-17 13:20:00,Samantha Lee

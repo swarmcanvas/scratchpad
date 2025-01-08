@@ -1,0 +1,6 @@
+username,email,password_hash,created_at,last_login
+alice_ai,alice@example.com,hashed_password_1,2023-01-01 10:00:00,2023-04-15 14:30:00
+bob_ml,bob@example.com,hashed_password_2,2023-02-15 11:30:00,2023-04-14 09:15:00
+charlie_nlp,charlie@example.com,hashed_password_3,2023-03-20 09:45:00,2023-04-13 16:45:00
+dana_cv,dana@example.com,hashed_password_4,2023-03-25 14:00:00,2023-04-16 11:30:00
+evan_ethics,evan@example.com,hashed_password_5,2023-04-01 08:30:00,2023-04-17 10:45:00
